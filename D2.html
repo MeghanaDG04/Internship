@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D2</title>
+
+    <link rel="stylesheet" href="D2.css">
+    <style>
+        /* Class Selector */
+        .myClass{
+            color:purple;
+            font-size: 18px;
+            margin: 15px 5px 15px 5px;
+            background-color: grey;
+            padding: 15px;
+        }
+
+        /* ID Selector */
+        #myId{
+            color:green;
+            font-size: 20px;
+            background-color: lightgreen;
+            padding: 20px;
+        }
+
+    </style>    
+</head>
+<body>
+    <!-- inline css -->
+    <h1 style="color:blue; text-align:center;">This is a Heading</h1>
+    <p style="font-size:16px; font-family:Arial; margin:10px 2px 10px 2px; background-color:lightgray; padding:10px;">This is a paragraph with inline CSS.</p>
+
+    <!-- internal css -->
+     <p class="myClass">Styling with internal CSS - class selector.</p>
+     <p id="myId">Styling with internal CSS - id selector.</p>
+
+     <!-- external css -->
+    <p class="info">Styling with external CSS.</p>
+
+</body>
+</html>

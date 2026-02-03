@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    <h1 id = "jsid">JavaScript output</h1>
+    <script>
+        console.log("Hello, welcome to JavaScript")
+        document.write("This is written using Doccument write method in JS.")
+        alert("This is an alert !")
+        document.getElementById("jsid").innerHTML = "Helloo JavaScript!"
+
+    </script>
+
+    <!--Funtion in JS-->
+    <p id = "data">  </p>
+    <button onclick="myFunction()">Change</button>
+    <script>
+        function myFunction(){
+            document.getElementById("data").innerHTML = "You clicked the button!";
+        }
+    </script>
+
+    <!--Datatypes in JS-->
+    <script>
+        let num =3 //number
+        document.write(num)
+        Array = ["apple", "banana", "mango"] //array
+        document.write(Array)
+        var log = true //boolean
+        document.write(log)
+        const name = "user" //string
+        document.write(name) 
+        const obj = {name:"user", email:"user@gmail.com", num : 1234567890} //object
+        document.write(obj.name+"  "+obj.email+"  "+obj.num)
+    </script>
+
+</body>
+</html>
